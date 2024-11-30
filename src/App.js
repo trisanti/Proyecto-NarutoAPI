@@ -14,8 +14,10 @@ function App() {
       <Route path="/" element={<Layout />}>
   <Route index element={<NarutoCharacters />} />
   <Route path="characters/:id" element={<CharacterDetails />} />
-  <Route path="prueba" element={<p>Clanes</p>} />
+  <Route path="clan" element={<p>Clanes</p>} />
   <Route path="villages" element={<p>Aldeas</p>} />
+  <Route path="teams" element={<p>Equipos</p>} />
+
       </Route>
       </Routes>
     </Router>
